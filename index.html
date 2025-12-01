@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JaieThakre</title>
+
+  
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <style>
+
+      /* Hero and About section styles */
+
+      .bg-full, .bg-small {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.bg-full {
+    height: 100vh;
+    background-image: url('img/herosection.png');
+}
+
+
+.bg-small {
+    height: 70vh; 
+    background-image: url('img/AboutSection.png');
+}
+
+/* Works style */
+.icon-box {
+  width: 370px;
+  height: 370px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+
+.icon-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /
+}
+
+
+.icon-box:hover {
+  transform: scale(1.08);
+  
+}
+
+/* Contact section styles */
+.bg3 {
+    height: 80vh;
+    background-image: url('img/bottom.png');
+    background-size: cover;
+    background-position: bottom center;
+}
+
+
+
+
+    </style>
+  </head>
+  <body>
+
+    <header>
+
+      <!--Navbar starts here-->
+
+       <nav class="navbar sticky-top custom-nav" style="font-family: Helvetica, Arial, sans-serif;">
+  <div class="container d-flex justify-content-between align-items-center">
+
+    <a class="navbar-brand fw-bold nav-hover m-0" href="#">Jaie Thakre</a>
+
+    <ul class="navbar-nav d-flex flex-row gap-4">
+      <li class="nav-item">
+        <a class="nav-link nav-hover" href="#about-section">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-hover" href="#works-section">Works</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-hover" href="#contact-section">Contact Me</a>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+
+<!--Navbar ends here-->
+
+
+ <!-- About starts here -->
+
+  <div id="about-section">
+
+    <section class="bg-full bg1 d-flex align-items-center justify-content-center">
+    </section>
+
+   
+    
+    <section class="bg-small bg2 d-flex align-items-center justify-content-center">
+    </section>
+
+  </div> 
+
+ <!-- About ends here -->
+
+
+ <!--Works starts here-->
+
+ <div id="works-section">
+
+   <div class="container py-5">
+
+  <div class="row g-4 justify-content-center icon-grid-row">
+
+    
+    <div class="col-6 col-md-4 d-flex justify-content-center">
+      <div  class="icon-box">
+        <a href="GetDressed.html">
+        <img src="img/skullICON.PNG" class="icon-img">
+      </div>
+      </a>
+    </div>
+
+   
+    <div class="col-6 col-md-4 d-flex justify-content-center">
+      <div class="icon-box">
+        <a href="Aram.html">
+        <img src="img/magICON.PNG" class="icon-img">
+      </div>
+      </a>
+    </div>
+
+  
+    <div class="col-6 col-md-4 d-flex justify-content-center">
+      <a href="Sketch.html">
+      <div class="icon-box">
+        <img src="img/bookICON.PNG" class="icon-img">
+      </div>
+      </a>
+    </div>
+
+    
+    <div class="col-6 col-md-4 d-flex justify-content-center">
+     <a href="photos.html">
+      <div class="icon-box">
+        <img src="img/cameraICON.PNG" class="icon-img">
+      </div>
+      </a>
+    </div>
+
+  
+    <div class="col-6 col-md-4 d-flex justify-content-center">
+      <a href="visual.html">
+      <div class="icon-box">
+        <img src="img/laptopICON.PNG" class="icon-img">
+      </div>
+      </a>
+    </div>
+
+  </div>
+
+</div>
+ </div>
+
+ <!--Works ends here-->
+
+ 
+<!-- Contacts Section starts here -->
+
+<div id="contact-section">
+
+<section class="bg3 d-flex flex-column align-items-center justify-content-center text-center">
+
+  <h1 class="fw-bold mb-3" style="font-size: 3rem;">
+    Like what you see?
+  </h1>
+
+  <p class="mb-1" style="font-size: 1.4rem;">
+    thakrejaie@gmail.com
+  </p>
+
+  <a href="https://www.instagram.com/jaiethakre/" target="_blank" 
+     class="text-dark" style="font-size: 1.4rem; text-decoration: underline;">
+    Instagram
+  </a>
+
+</section>
+
+</div>
+
+<!-- Contacts Section ends here -->
+
+
+<!--Footer starts here-->
+
+<footer class="glass-footer text-center py-3">
+  <span>www.jaiethakre.com</span>
+</footer>
+
+<!--Footer ends here-->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
